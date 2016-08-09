@@ -1,7 +1,5 @@
 
-We will use zurb-foundation version 6 with Rails 5. The foundation-rails gem version used is 6.2.3.0.
-
-Create a new Rails 5 project.
+We will use zurb-foundation version 6 with Rails 5. The foundation-rails gem version used is 6.2.3.0. Create a new Rails 5 project.
 
 ```
 rails new zurb6
@@ -57,7 +55,7 @@ Add navigation to the layout file:
 </div>
 ```
 
-it looks like this:
+It now looks like this:
 
 ```
 <!DOCTYPE html>
@@ -99,9 +97,7 @@ Rails.application.routes.draw do
 end
 ```
 
-Go to the home page. You will see the home page styled using Zurb foundation.
-
-Add modernizr.js to assets.rb:
+Go to the home page. You will see the home page styled using Zurb foundation. Add modernizr.js to assets.rb:
 
 ```ruby
 Rails.application.config.assets.precompile += %w( vendor/modernizr.js )
@@ -129,7 +125,7 @@ Add a sidebar to the layout file:
 <!-- End Sidebar -->
 ```
 
-it looks like this:
+It now looks like this:
 
 ```rhtml
 <!DOCTYPE html>
@@ -323,6 +319,6 @@ In this article, you learned how to setup and use Zurb 6 with Rails 5 projects.
 
 ## References
 
-[Zurb Top Bar](http://foundation.zurb.com/sites/docs/top-bar.html 'Zurb Top Bar')
-[Zurb Building Blocks](http://zurb.com/building-blocks 'Zurb Building Blocks')
+- [Zurb Top Bar](http://foundation.zurb.com/sites/docs/top-bar.html 'Zurb Top Bar')
+- [Zurb Building Blocks](http://zurb.com/building-blocks 'Zurb Building Blocks')
 
