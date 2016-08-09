@@ -307,7 +307,15 @@ $grid-column-gutter: 30px;
 ```
 in _settings.scss
 
-This will provide the gap on the left for the new product form.
+This will provide the gap on the left for the new product form. You can add tool tip to the price label in the new product form:
+
+```rhtml
+<span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Price in USD.">
+  <%= f.label :price %>	
+</span> 
+```
+
+Reload the new product page. Now, if you hover over the Price label, you will see the tooltip.
 
 ## Summary
 
